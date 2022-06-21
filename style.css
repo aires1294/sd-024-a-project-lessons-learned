@@ -75,3 +75,16 @@ body{
 aside{
     padding-top: 4rem;
 }
+
+#rodape{
+    padding: 2rem 10rem;
+}
+
+.botoes{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    
+    
+}
