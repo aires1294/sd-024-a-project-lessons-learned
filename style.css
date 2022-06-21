@@ -32,9 +32,46 @@ body{
     margin-left: 100px;
 }
 
-.conteudo{
+
+
+.listas{
+
+    padding: 2rem 10rem;
+  display: flex;
+  grid-template-columns: 50% 50%; 
+  gap: 5rem;
+  justify-content: center;
+  border: 2px solid black;
+ 
+  
+  
+    /*display: flex;
+    flex-direction: column;*/
+    
+}
+
+/*.conteudo{
+    border: 2px solid green;
     display: flex;
     align-items: center;
+    
+}
+*/
+
+.conteudo{
+    padding: 2rem 10rem;
+    display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+  /*display: grid;
+  grid-template-columns: 50% 50%; */
+  gap: 5rem;
+  justify-content: center;
+  border: 2px solid green;
+  
+
+}
+
+aside{
+    padding-top: 4rem;
 }
