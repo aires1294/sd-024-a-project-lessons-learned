@@ -31,3 +31,10 @@ body{
 #licoes_aprendias{
     margin-left: 100px;
 }
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
