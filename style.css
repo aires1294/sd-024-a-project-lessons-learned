@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+
+body{
+   background-color: rgb(253, 251, 251);
+}
+
+#cabecalho{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 0;
+    background-color: #76BA99;
+}
+
+.cabecalho-imagem{
+    width: 150px;
+}
+
+#minha_foto{
+    width: 250px;
+    border-radius: 50%;
+}
+
+#licoes_aprendias{
+    margin-left: 100px;
+}
