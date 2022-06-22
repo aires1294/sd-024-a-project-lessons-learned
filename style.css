@@ -8,6 +8,9 @@
 
 body{
    background-color: rgb(253, 251, 251);
+   display: flex;
+   align-items: center;
+   flex-direction: column;
 }
 
 #cabecalho{
@@ -15,9 +18,11 @@ body{
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
-    top: 0;
+    top: 0px;
     background-color: #76BA99;
     border: 2px solid black;
+    position: fixed;
+    width: 100%;
 }
 
 .cabecalho-imagem{
@@ -49,7 +54,18 @@ body{
    
     
 }
+#licoes_aprendidas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
+#licoes_a_aprender{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
 
 
 .conteudo{
@@ -62,6 +78,7 @@ body{
   gap: 5rem;
   justify-content: center;
   border: 2px solid black;
+  
   
 
 }
